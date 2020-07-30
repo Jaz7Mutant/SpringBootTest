@@ -1,0 +1,41 @@
+<html>
+<body>
+<h1>Airports</h1>
+<table cellspacing="2">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>IATA</th>
+        <th>ICAO</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Altitude</th>
+        <th>Timezone</th>
+        <th>DST</th>
+        <th>ianaTZ</th>
+        <th>Type</th>
+        <th>Source</th>
+    </tr>
+    {{#airports}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{city}}</td>
+        <td>{{country}}</td>
+        <td>{{IATA}}</td>
+        <td>{{ICAO}}</td>
+        <td>{{latitude}}</td>
+        <td>{{longitude}}</td>
+        <td>{{altitude}}</td>
+        <td>{{timezone}}</td>
+        <td>{{DST}}</td>
+        <td>{{ianaTZ}}</td>
+        <td>{{type}}</td>
+        <td>{{source}}</td>
+    </tr>
+    {{/airports}}
+</table>
+</body>
+</html>
